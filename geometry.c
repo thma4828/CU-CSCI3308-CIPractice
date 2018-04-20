@@ -19,6 +19,13 @@
 
 #define DEBUG(file, line, func, msg) fprintf(stderr, "DEBUG - %s_%d_%s: %s", file, line, func, msg);
 
+double coord_2d_area_triangle(const coord_2d_t* a, const
+coord_2d_t* b, const coord_2d_t* c){
+	double length_base = coord_2d_dist(a, b);
+	double length_side = coord_2d_dist(a, c);
+	return 0.5 * length_base * length_side;
+}
+
 double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b){
 
     /* Input Checks */
