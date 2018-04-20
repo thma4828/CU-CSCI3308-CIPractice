@@ -32,7 +32,7 @@ START_TEST(test_area)
 	ck_assert(area == 5000);
 
 }
-
+END_TEST
 /* area test 2*/
 START_TEST(test_area)
 {
@@ -50,6 +50,7 @@ START_TEST(test_area)
 	ck_assert(area == 20000);
 
 }
+END_TEST
 
 
 /* coord_2d_eq Test */
