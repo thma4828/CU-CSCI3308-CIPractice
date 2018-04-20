@@ -25,6 +25,8 @@ geometry.o: geometry.c geometry.h
 dep:
 	sudo apt-get install check
 
+test: geometry_test.o geometry.o
+
 clean:
 	$(RM) *.o
 	$(RM) geometry_test
