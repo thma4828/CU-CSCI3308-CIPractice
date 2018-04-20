@@ -16,7 +16,7 @@
 #include "geometry.h"
 
 /* area test 1*/
-START_TEST(test_area)
+START_TEST(test_area1)
 {
 	coord_2d_t a;
 	coord_2d_t b;
@@ -34,7 +34,7 @@ START_TEST(test_area)
 }
 END_TEST
 /* area test 2*/
-START_TEST(test_area)
+START_TEST(test_area2)
 {
 	coord_2d_t a;
 	coord_2d_t b;
